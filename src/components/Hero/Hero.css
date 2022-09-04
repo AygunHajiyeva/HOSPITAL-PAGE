@@ -1,0 +1,65 @@
+.hero {
+  position: relative;
+  font-family: "Mulish";
+  display: grid;
+  max-width: 1300px;
+  padding: 150px 20px 0 20px;
+  margin: 0 auto;
+  gap: 18px;
+  justify-content:center;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.hero-heading {
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+.hero p {
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+}
+.hero-info {
+width:100%
+
+}
+.hero-img {
+max-width: 590px;
+width:100%;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.hero-btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+  background: #458ff6;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.hero-btn:hover {
+  transform: scale(110%);
+  transition: all 0.3s ease;
+  background-color: #144386;
+}
+
+@media all and (max-width: 960px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+   .hero-heading {
+    font-size: 40px;
+   }
+
+    .hero-info {
+margin-bottom: 10px;
+    }
+}
