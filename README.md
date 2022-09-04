@@ -1,5 +1,5 @@
 <h1 align="center">Hospital Page</h1>
-
+<div>Simple onepage React project</div>
 <div align="center">
   <h1>
     <a href="https://hospitalpage.herokuapp.com/">
